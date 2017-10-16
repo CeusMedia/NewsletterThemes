@@ -1,0 +1,53 @@
+/*  --  GENERAL  --  */
+html {
+	height: 100%;
+	background-color: white;
+	line-height: 1.25em;
+	}
+body.mail {
+	margin: 0px auto;
+	width: 600px;
+	font-family: "Helvetica Neue", "Helvetica", "Arial" , sans-serif;
+	background-color: rgba(255, 255, 255, 1);
+	}
+
+/*  --  LAYOUT  --  */
+body.mail #layout-mail {}
+body.mail #layout-mail-header {
+	margin: 1em 0 0.5em 0;
+	padding: 1em;
+	background-color: #E53416;
+	color: white !important;
+	text-align: center;
+	}
+body.mail #layout-mail-content {
+	padding: 0 1em;
+	}
+body.mail #layout-mail-footer {
+	margin-top: 1.5em;
+	padding: 1em;
+	border-top: 1px solid rgba(127, 127, 127, 0.25);
+	background-color: rgba(191, 191, 191, 0.15);
+	font-size: 0.9em;
+	color: rgba(127, 127, 127, 1);
+	}
+body.mail #layout-mail-footer-left {
+	float: left;
+	width: 46%;
+	}
+body.mail #layout-mail-footer-right {
+	float: left;
+	width: 50%;
+	margin-left: 4%;
+	font-size: 0.9em;
+	}
+body.mail #browser-link {
+	color: #777;
+	font-size: 0.9em;
+	}
+
+/*  --  TEXT FORMAT  --  */
+body.mail h3 {}
+body.mail h4 {}
+body.mail h5 {}
+body.mail p {}

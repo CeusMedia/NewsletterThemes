@@ -1,0 +1,16 @@
+{
+    "name": "ceus-media/newsletter-themes",
+    "description": "Themes for Ceus Media newsletter tool.",
+    "type": "library",
+    "require": {
+        "ceus-media/common": "0.8.3.7"
+    },
+    "license": "GPL 3",
+    "authors": [
+        {
+            "name": "Christian Würker",
+            "email": "christian.wuerker@ceusmedia.de"
+        }
+    ],
+    "minimum-stability": "dev"
+}

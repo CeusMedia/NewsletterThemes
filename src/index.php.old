@@ -1,0 +1,44 @@
+<?php
+require_once '../../vendor/autoload.php';
+require_once '../../classes/Model/Newsletter/Theme.php5';
+require_once '../../classes/View/Helper/Newsletter/ThemeList.php5';
+
+new \UI_DevOutput();
+
+class ThemeIndex{
+
+	protected $themes		= array();
+
+	public function __construct(){
+		$this->reader	= new \Model_Newsletter_Theme( './' );
+		$this->themes	= $this->reader->getAll();
+		if( isset( $_GET['theme'] ) && $_GET['theme'] ){
+			print( $this->view( $_GET['theme'] ) );
+		}
+		else{
+			print( $this->index() );
+		}
+	}
+
+	protected function index(){
+		$list	= new \View_Helper_Newsletter_ThemeList( NULL );
+		$list->setThemePath( './' );
+		$list->setThemes( $this->themes );
+		$page	= new \UI_HTML_PageFrame();
+		$page->addStylesheet( 'https://cdn.ceusmedia.de/css/bootstrap.min.css' );
+		$page->addBody( '<h2>Themes</h2>'.$list->render() );
+		return $page->build();
+	}
+
+	protected function view( $theme ){
+
+	}
+}
+
+
+try{
+	new ThemeIndex();
+}
+catch( Exception $e ){
+	\UI_HTML_Exception_Page::display( $e );
+}
