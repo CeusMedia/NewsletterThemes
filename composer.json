@@ -3,7 +3,7 @@
     "description": "Themes for Ceus Media newsletter tool.",
     "type": "library",
     "require": {
-        "ceus-media/common": "0.8.3.7"
+        "ceus-media/common": "^0.8"
     },
     "license": "GPL 3",
     "authors": [
