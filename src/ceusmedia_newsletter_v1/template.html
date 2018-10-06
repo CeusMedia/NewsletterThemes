@@ -1,0 +1,68 @@
+<center>
+	<div id="layout-mail-preheader">
+		[#abstract#]
+	</div>
+	<div class="email-container" id="layout-mail">
+		<!-- MSO tags for Desktop Windows Outlook enforce a 680px width. -->
+		<!--[if mso]>
+		<table role="presentation" cellspacing="0" cellpadding="0" border="0" width="680" align="center">
+		<tr>
+		<td>
+		<![endif]-->
+		<!-- Email Header -->
+		<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" class="email-container">
+			<tr>
+				<td id="browser-link">
+					<small class="muted">Sie können diesen Newsletter auch <webversion><a href="[#linkView#]" class="x-gmail-data-detectors">im Browser betrachten</a></webversion>.</small>
+				</td>
+			</tr>
+		</table>
+		<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" class="email-container" id="layout-mail-header">
+			<tr>
+				<td>
+					<div style="text-align: center; padding-top: 2em;">
+						<img src="[#app.url#]images/CeusMedia_Logo_Stacked_White_Transparent.png" width="25%" alt="Ceus Media"/>
+					</div>
+					<h1>Newsletter</h1>
+				</td>
+			</tr>
+		</table>
+		<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" class="email-container" id="layout-mail-content">
+			<tr>
+				<td>
+					<table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+						<tr>
+							<td>
+								<h2>[#title#]</h2>
+								[#content#]
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+		<!-- Email Footer -->
+		<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" class="email-container" id="layout-mail-footer">
+			<tr>
+				<td valign="top" class="stack-column-center" style="width: 50%";>
+					<h4>Impressum</h4>
+					<address class="x-gmail-data-detectors">
+						[#imprint#]
+					</address>
+				</td>
+				<td valign="top" class="stack-column-center" style="width: 50%;">
+					<h4>Ihr Abonnement</h4>
+					<p>
+						Sie, [#prefix#] [#firstname#] [#surname#], erhalten diesen Newsletterm, weil Sie sich beim Newsletter von Ceus Media eingetragen haben oder als Kunde automatisch hinzugefügt wurden.<br/>
+						Wenn Sie diesen Newsletter nicht mehr erhalten wollen, können Sie ihn komplett oder teilweise <unsubscribe><a href="[#linkUnregister#]" target="_blank">abbestellen</a></unsubscribe>.<br/>
+					</p>
+				</td>
+			</tr>
+		</table>
+		<!--[if mso]>
+		</td>
+		</tr>
+		</table>
+		<![endif]-->
+	</div>
+</center>

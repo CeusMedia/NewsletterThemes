@@ -1,0 +1,22 @@
+{
+    "id": "B9D71483-7B57-44DC-823F-C9A95B3B1A68",
+    "title": "CeusMedia: Newsletter",
+    "version": "1",
+    "created": "2018-05-17T22:48:45+02:00",
+    "modified": "2018-09-22T15:39:04+02:00",
+    "sender": {
+        "address": "newsletter@ceusmedia.de",
+        "name": "Ceus Media Newsletter"
+    },
+    "imprint": "Ceus Media\r\nK\u00e4the-Kollwitz-Str 71\r\n04109 Leipzig\r\nTelefon: (0049) 341-999 92 92\r\nInternet: https:\/\/ceusmedia.de\/\r\nE-Mail: office@ceusmedia.de\r\n",
+    "styles": null,
+    "author": {
+        "name": "Christian W\u00fcrker",
+        "email": "christian.wuerker@ceusmedia.de",
+        "company": "Ceus Media",
+        "url": "https:\/\/ceusmedia.de\/"
+    },
+    "license": "",
+    "licenseUrl": null,
+    "description": null
+}

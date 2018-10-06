@@ -1,0 +1,25 @@
+Ceus Media Newsletter
+=============================================================================
+
+Hinweis: Vollständige Darstellung dieses Newsletters im Internet-Browser:
+[#linkView#]
+
+
+[#title#]
+-----------------------------------------------------------------------------
+
+[#content#]
+
+
+Impressum
+-----------------------------------------------------------------------------
+
+[#imprint#]
+
+
+Abonnement
+-----------------------------------------------------------------------------
+
+Sie, [#prefix#] [#firstname#] [#surname#], erhalten diesen Newsletter, weil Sie sich beim Newsletter von Ceus Media eingetragen haben oder als Kunde automatisch hinzugefügt wurden.
+Wenn Sie diesen Newsletter nicht mehr erhalten wollen, können Sie ihn komplett oder teilweise abbestellen:
+[#linkUnregister#]
