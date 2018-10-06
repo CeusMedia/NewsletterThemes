@@ -1,0 +1,22 @@
+{
+    "title": "CeusMedia: Static 1",
+    "version": 1,
+    "created": "",
+    "modified": "",
+    "sender": {
+        "address": "kontakt@mein-unternehmen.de",
+        "name": "Mein Unternehmen"
+    },
+    "imprint": "Mein Unternehmen\r\nDemostra\u00dfe 12\r\n12345 Teststadt\r\nTelefon: (0049) 123-456789\r\nInternet: https:\/\/mein-unternehmen.de\/\r\nE-Mail: kontakt@mein-unternehmen.de",
+    "styles": "",
+    "author": {
+        "name": "Christian W\u00fcrker",
+        "email": "christian.wuerker@ceusmedia.de",
+        "company": "Ceus Media",
+        "url": "https:\/\/ceusmedia.de\/"
+    },
+    "license": "GPL",
+    "licenseUrl": "",
+    "description": "First basic template provided by Ceus Media.\r\nStatic layout - not responsive design.",
+    "id": "3A8DBFA8-9E22-47A0-A628-EE1C03F075A6"
+}

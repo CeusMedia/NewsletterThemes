@@ -1,0 +1,22 @@
+{
+    "title": "Cerberus: Hybrid",
+    "version": 1,
+    "created": "2013-11-20",
+    "modified": "2017-06-23",
+    "sender": {
+        "address": "kontakt@mein-unternehmen.de",
+        "name": "Mein Unternehmen"
+    },
+    "imprint": "Mein Unternehmen\r\nDemostra\u00dfe 12\r\n12345 Teststadt\r\nTelefon: (0049) 123-456789\r\nInternet: https:\/\/mein-unternehmen.de\/\r\nE-Mail: kontakt@mein-unternehmen.de",
+    "styles": "[\"https:\/\/maxcdn.bootstrapcdn.com\/bootstrap\/3.3.7\/css\/bootstrap.min.css\"]",
+    "author": {
+        "name": "Ted Goas",
+        "email": "ted@tedgoas.com",
+        "company": "",
+        "url": "http:\/\/www.tedgoas.com\/"
+    },
+    "license": "MIT",
+    "licenseUrl": "",
+    "description": "Hybrid version of Cerberus Responsive Email Patterns. See http:\/\/tedgoas.github.io\/Cerberus\/",
+    "id": "DDBFDB16-A32F-42CD-91E1-AF8E34BAC822"
+}

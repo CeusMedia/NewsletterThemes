@@ -1,0 +1,22 @@
+{
+    "title": "CeusMedia: Responsive 1",
+    "version": 1,
+    "created": "2017-08-07",
+    "modified": "2017-08-07",
+    "sender": {
+        "address": "kontakt@mein-unternehmen.de",
+        "name": "Mein Unternehmen"
+    },
+    "imprint": "Mein Unternehmen\r\nDemostra\u00dfe 12\r\n12345 Teststadt\r\nTelefon: (0049) 123-456789\r\nInternet: https:\/\/mein-unternehmen.de\/\r\nE-Mail: kontakt@mein-unternehmen.de",
+    "styles": "[\"https:\/\/maxcdn.bootstrapcdn.com\/bootstrap\/3.3.7\/css\/bootstrap.min.css\"]",
+    "author": {
+        "name": "Christian W\u00fcrker",
+        "email": "christian.wuerker@ceusmedia.de",
+        "company": "Ceus Media",
+        "url": "https:\/\/ceusmedia.de\/"
+    },
+    "license": "GPL",
+    "licenseUrl": "",
+    "description": "Responsive template provided by Ceus Media.\r\nDerived from \"CeusMedia Static 2\".\r\nUses Bootstrap 3.",
+    "id": "A46CBE18-FBAF-4E9D-8364-40332F225298"
+}
