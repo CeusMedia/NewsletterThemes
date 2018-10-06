@@ -1,0 +1,68 @@
+<center>
+	<div id="layout-mail-preheader">
+		[#abstract#]
+	</div>
+	<div class="email-container" id="layout-mail">
+		<!-- MSO tags for Desktop Windows Outlook enforce a 680px width. -->
+		<!--[if mso]>
+		<table role="presentation" cellspacing="0" cellpadding="0" border="0" width="680" align="center">
+		<tr>
+		<td>
+		<![endif]-->
+		<!-- Email Header -->
+		<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" class="email-container">
+			<tr>
+				<td id="browser-link">
+					<small class="muted">Sie können diesen Newsletter auch <webversion><a href="[#linkView#]" class="x-gmail-data-detectors">im Browser betrachten</a></webversion>.</small>
+				</td>
+			</tr>
+		</table>
+		<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" class="email-container" id="layout-mail-header">
+			<tr>
+				<td width="30%" style="text-align: right">
+					<img src="[#app.url#]images/Logo/rsl_47_300x300.jpg" alt="Rennsteiglauf Logo (noch nicht geladen)"/>
+				</td>
+				<td width="70%" style="text-align: left">
+					<h1>47. Rennsteiglauf</h1>
+					<p class="subtitle">Neuigkeiten</p>
+				</td>
+			</tr>
+		</table>
+		<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%" class="email-container" id="layout-mail-content">
+			<tr>
+				<td>
+					<table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+						<tr>
+							<td>
+								<!--<h2>[#title#]</h2>-->
+								[#content#]
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+		<!-- Email Footer -->
+		<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" class="email-container" id="layout-mail-footer">
+			<tr>
+				<td valign="top" class="stack-column-center" style="width: 60%";>
+					<h4>Impressum</h4>
+					<address class="x-gmail-data-detectors">
+						[#imprint#]
+					</address>
+				</td>
+				<td valign="top" class="stack-column-center" style="width: 40%;">
+					<h4>Abmelden</h4>
+					<p>
+						Wenn Sie diesen Newsletter nicht mehr erhalten wollen, können Sie ihn komplett oder teilweise <unsubscribe><a href="[#linkUnregister#]" target="_blank">abbestellen</a></unsubscribe>.<br/>
+					</p>
+				</td>
+			</tr>
+		</table>
+		<!--[if mso]>
+		</td>
+		</tr>
+		</table>
+		<![endif]-->
+	</div>
+</center>

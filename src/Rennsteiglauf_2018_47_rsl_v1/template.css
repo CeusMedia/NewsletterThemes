@@ -1,0 +1,169 @@
+/*  --  BASE TEMPLATE  --  */
+/*  --  Cerberus Mail Template Patterns  --  */
+/*  --  Source: http://tedgoas.github.io/Cerberus/  --  */
+html,
+body.mail {
+	margin: 0 auto !important;
+	padding: 0 !important;
+	height: 100% !important;
+	width: 100% !important;
+	font-size: 14px !important;
+	}
+body.mail > center {
+	width: 100%;
+	text-align: left;
+	}
+body.mail * {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	line-height: 1.5em !important;
+	}
+body.mail table,
+body.mail table td {
+	mso-table-lspace: 0pt !important;
+	mso-table-rspace: 0pt !important;
+	}
+body.mail table {
+	border-spacing: 0 !important;
+	border-collapse: collapse !important;
+	table-layout: fixed !important;
+	margin: 0 auto;
+	}
+body.mail table.email-container {
+	max-width: 680px;
+	}
+body.mail img {
+	-ms-interpolation-mode: bicubic;
+	}
+.a6S {
+	display: none !important;
+	opacity: 0.01 !important;
+	}
+@media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
+	body.mail .email-container {
+		min-width: 375px !important;
+		}
+	}
+@media screen and (max-width: 480px) {
+	body.mail .fluid {
+		width: 100% !important;
+		max-width: 100% !important;
+		height: auto !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+		}
+	body.mail .stack-column,
+	body.mail .stack-column-center {
+		display: block !important;
+		width: 100% !important;
+		max-width: 100% !important;
+		direction: ltr !important;
+		}
+	body.mail .stack-column-center {
+		text-align: center !important;
+		}
+	body.mail .center-on-narrow {
+		text-align: center !important;
+		display: block !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+		float: none !important;
+		}
+	body.mail .email-container p {
+		font-size: 17px !important;
+		line-height: 22px !important;
+		}
+	}
+
+
+/*  --  CONTENT LAYOUT  --  */
+html {
+	line-height: 1.25em;
+	}
+body.mail {
+	margin: 0px auto;
+	font-family: "Helvetica Neue", "Helvetica", "Arial" , sans-serif;
+	background-color: rgba(255, 255, 255, 1);
+	background-color: #EFEFEF;
+	}
+
+/*  --  LAYOUT  --  */
+body.mail #layout-mail {
+	max-width: 680px;
+	margin: auto;
+	padding: 15px 20px 20px 20px;
+	background-color: rgba(255, 255, 255, 1);
+	}
+body.mail #layout-mail-preheader {
+	display: none;
+	font-size: 1px;
+	line-height: 1px;
+	max-height: 0px;
+	max-width: 0px;
+	opacity: 0;
+	overflow: hidden;
+	mso-hide: all;
+	font-family: sans-serif;
+	}
+body.mail #layout-mail-header {
+	margin: 1em 0 0.5em 0;
+/*	background-color: rgb(0, 67, 98);*/
+	}
+body.mail #layout-mail-header td {
+	padding: 0.5em;
+/*	color: white !important;*/
+/*	text-align: center;*/
+	}
+body.mail #layout-mail-header h1 {
+	font-weight: lighter;
+	font-weight: 100;
+	font-size: 2.4em;
+	margin: 0;
+	padding: 0;
+	}
+body.mail #layout-mail-header p.subtitle {
+	margin: 0;
+	padding: 0;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	}
+body.mail #layout-mail-header img {
+	height: 120px;
+	padding-right: 1em;
+	}
+body.mail #layout-mail-content {
+	table-layout: auto;
+	}
+body.mail #layout-mail-content td {
+	line-height: 1.25em;
+	padding: 0.5em;
+	}
+body.mail #layout-mail-footer {
+	table-layout: auto;
+	margin-top: 1.5em;
+	border-top: 1px solid rgba(127, 127, 127, 0.25);
+	background-color: rgba(191, 191, 191, 0.15);
+	}
+body.mail #layout-mail-footer td {
+	padding: 1em 2em 1em 2em;
+	font-size: 0.9em;
+	color: rgba(127, 127, 127, 1) !important;
+	}
+body.mail #layout-mail-footer td p {
+	font-size: 0.9em;
+	}
+body.mail #layout-mail-footer td h4 {
+	margin: 0.25em 0;
+	}
+
+/*  --  TEXT FORMAT  --  */
+body.mail #browser-link {
+	padding-bottom: 0.5em;
+	color: #777;
+	font-size: 0.9em;
+	text-align: center;
+	}
+body.mail h3 {}
+body.mail h4 {}
+body.mail h5 {}
+body.mail p {}
