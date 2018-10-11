@@ -1,0 +1,51 @@
+/*  --  Vorgabe  --  */
+
+/*  --  GENERAL  --  */
+html {
+	height: 100%;
+	}
+body.mail {
+	font-family: "Helvetica Neue", "Helvetica", "Arial" , sans-serif;
+	background-color: rgba(127,127,127,0.25);
+	}
+
+/*  --  LAYOUT  --  */
+body.mail #layout-mail {
+	margin: 1em 1em;
+	border: 1px solid rgba(127,127,127,0.5);
+	padding: 1em 2em;
+	background-color: white;
+	}
+body.mail #layout-mail-header {
+	}
+body.mail #layout-mail-content {
+	}
+body.mail #layout-mail-footer {
+	font-size: 0.85em;
+	color: rgba(127,127,127,0.75)
+	}
+	
+
+
+/*  --  TEXT FORMAT  --  */
+body.mail #layout-mail-header h2 {
+	}
+body.mail h3 {
+	}
+body.mail h4 {
+	}
+body.mail h5 {
+	}
+body.mail p {
+	}
+
+
+img#logo {
+/*	border: 1px solid rgba(127,127,127,1);*/
+	box-shadow: 2px 2px 5px rgba(127,127,127,0.33);
+	border-radius: 50px;
+	}
+
+div#browser-link {
+	text-align: right;
+	}

@@ -1,0 +1,22 @@
+{
+    "id": "F0C44FD7-9D45-464F-A4D9-8D8FA1AB2A51",
+    "title": "SteinSchleiftSchere: Vorlage 3",
+    "version": "1",
+    "created": "2017-01-31T20:55:28+01:00",
+    "modified": "2018-10-12T00:14:52+02:00",
+    "sender": {
+        "address": "info@steinschleiftschere.de",
+        "name": "Newsletter"
+    },
+    "imprint": "E-Mail-Adresse: info@steinschleiftschere.de\r\nMixcloud: https:\/\/mixcloud.com\/STEINschleiftSCHERE\/\r\nTwitter: https:\/\/twitter.com\/Stein_vs_Schere",
+    "styles": "|https:\/\/cdn.ceusmedia.de\/css\/bootstrap.min.css|",
+    "author": {
+        "name": "Christian W\u00fcrker",
+        "email": "christian.wuerker@ceusmedia.de",
+        "company": "Ceus Media",
+        "url": "https:\/\/ceusmedia.de\/"
+    },
+    "license": "",
+    "licenseUrl": null,
+    "description": null
+}
